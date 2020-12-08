@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    tools:context="com.xxx.gid.ui.my.activity.account.AccountSettingActivity">
+
+    <include layout="@layout/include_title_bar" />
+
+    <RelativeLayout
+        android:id="@+id/account_setting_icon"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="32dp"
+        android:background="#ffffff"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:paddingEnd="13dp"
+        android:paddingStart="13dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/item_flag" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/account_setting_icon"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/account_setting_icon_image"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@mipmap/my_icon" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/account_setting_name"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
+        android:background="#ffffff"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:paddingEnd="13dp"
+        android:paddingStart="13dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/item_flag" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/account_setting_name"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/account_setting_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/account_setting_sex"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:paddingEnd="13dp"
+        android:paddingStart="13dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/item_flag" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/account_setting_sex"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/account_setting_sex_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

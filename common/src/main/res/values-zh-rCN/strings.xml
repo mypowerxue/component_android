@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- 网络请求错误信息配置 -->
+    <string name="error_http_net_work_exception">无网络连接</string>
+    <string name="error_http_url_exception">服务器地址有误</string>
+    <string name="error_http_time_out_exception">网络状态不好，请重试</string>
+    <string name="error_http_json_exception">解析异常</string>
+    <string name="error_http_service_exception">服务器异常</string>
+    <string name="error_http_not_content">这个上下文没有继承BaseActivity</string>
+    <string name="error_http_not">未知错误</string>
+    <string name="check_version_not">当前已是最新版本</string>
+    <string name="exit_exception">很抱歉，程序异常，即将退出</string>
+    <string name="second_exit_app">再次点击退出程序</string>
+    <string name="copy_success">复制成功</string>
+    <string name="not_data">暂无记录</string>
+    <string name="save_image_success">保存到相册成功</string>
+    <string name="save_image_fail">保存失败</string>
+    <string name="send_sms_code_success">发送成功</string>
+    <string name="loading_text">加载中…</string>
+    <string name="update_title">发现新版本</string>
+    <string name="update_btn">前往下载</string>
+
+    <string name="idCard_matcher">0123456789xX</string>
+    <string name="address">QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxccvbnm1234567890</string>
+    <string name="password">QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxccvbnm1234567890</string>
+
+</resources>

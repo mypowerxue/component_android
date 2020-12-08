@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    tools:context="com.xxx.login.ui.activity.SelectCountyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp">
+
+        <include layout="@layout/include_title_bar" />
+
+        <TextView
+            android:id="@+id/select_county_save"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:text="保存"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/include_recycler" />
+
+</LinearLayout>

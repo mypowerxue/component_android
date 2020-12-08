@@ -1,0 +1,41 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api rootProject.ext.dependencies.supportV4
+    api rootProject.ext.dependencies.supportV7
+    api rootProject.ext.dependencies.constraintLayout
+
+    api rootProject.ext.dependencies.tabLayout
+    api rootProject.ext.dependencies.recyclerView
+    api rootProject.ext.dependencies.recyclerAdapter
+    api rootProject.ext.dependencies.glide
+    api rootProject.ext.dependencies.barlibrary
+    api rootProject.ext.dependencies.autosize
+    api rootProject.ext.dependencies.eventbus
+
+    api rootProject.ext.dependencies.retrofit
+    api rootProject.ext.dependencies.retrofitGson
+    api rootProject.ext.dependencies.rxjavaAdapter
+    api rootProject.ext.dependencies.rxjava
+    api rootProject.ext.dependencies.rxandroid
+
+    api rootProject.ext.dependencies.zxing
+    api rootProject.ext.dependencies.zxingAndroid
+}

@@ -1,0 +1,620 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">华寅基因</string>
+    <string name="app_name_test">华寅基因(内测)</string>
+
+
+    <string name="idCard_matcher">0123456789xX</string>
+    <string name="address">QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxccvbnm1234567890</string>
+    <string name="password">QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxccvbnm1234567890</string>
+    <string name="loading_text">加载中…</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- 网络请求错误信息配置 -->
+    <string name="error_http_net_work_exception">无网络连接</string>
+    <string name="error_http_url_exception">服务器地址有误</string>
+    <string name="error_http_time_out_exception">网络状态不好，请重试</string>
+    <string name="error_http_json_exception">解析异常</string>
+    <string name="error_http_service_exception">服务器异常</string>
+    <string name="error_http_not_content">这个上下文没有继承BaseActivity</string>
+    <string name="error_http_not">未知错误</string>
+    <string name="check_version_not">当前已是最新版本</string>
+    <string name="exit_exception">很抱歉，程序异常，即将退出</string>
+    <string name="second_exit_app">再次点击退出程序</string>
+    <string name="copy_success">复制成功</string>
+    <string name="not_data">暂无记录</string>
+    <string name="save_image_success">保存到相册成功</string>
+    <string name="save_image_fail">保存失败</string>
+    <string name="send_sms_code_success">发送成功</string>
+
+    <string name="main_shop">商城</string>
+    <string name="main_community">社区</string>
+    <string name="main_my">我的</string>
+
+    <string name="select_county_save">保存</string>
+    <string name="select_county_title">国家和地区</string>
+
+    <string name="update_title">发现新版本</string>
+    <string name="update_btn">前往下载</string>
+
+    <string name="language_title">语言</string>
+    <string name="language_simple_zh">简体中文</string>
+    <string name="language_en">English</string>
+
+    <string name="invite_friend_title">邀请详情</string>
+    <string name="invite_friend_copy">复制邀请链接</string>
+    <string name="invite_friend_my">我的邀请</string>
+    <string name="invite_friend_rule">奖励规则</string>
+
+    <string name="feed_back_title">意见反馈</string>
+    <string name="feed_back_type">意见类型</string>
+    <string name="feed_back_edit_hint">感谢您对产品提出的宝贵问题，我们会尽快优化产品，提升用户体验</string>
+    <string name="feed_back_btn">提交</string>
+    <string name="feed_back_error_1">提交内容不能为空</string>
+    <string name="feed_back_success">提交成功</string>
+
+    <string name="recharge_title">充值</string>
+    <string name="recharge_toast_1">注意:请勿向以下地址充入除%1$s以外币种</string>
+    <string name="recharge_list">充值记录</string>
+    <string name="recharge_code">0x</string>
+    <string name="recharge_btn">复制收款地址</string>
+
+    <string name="withdrawal_title">转账</string>
+    <string name="withdrawal_toast_1">转账前请务必确认地址是否正确，如果输入错误后果自负</string>
+    <string name="withdrawal_btn">确定</string>
+    <string name="withdrawal_fee">转账手续费：</string>
+    <string name="withdrawal_balance">可用余额：</string>
+    <string name="withdrawal_record_list">提现记录</string>
+    <string name="withdrawal_amount_hint">请输入提现数量</string>
+    <string name="withdrawal_address_hint">请输入地址</string>
+    <string name="withdrawal_error_1">地址不能为空</string>
+    <string name="withdrawal_error_2">数量不能为空</string>
+    <string name="withdrawal_error_3">余额不足</string>
+    <string name="withdrawal_error_4">数量输入有误</string>
+    <string name="withdrawal_error_5">密码不能为空</string>
+    <string name="withdrawal_error_6">请先设置资金密码</string>
+
+    <string name="login_title">登录</string>
+    <string name="login_forget">忘记密码</string>
+    <string name="login_register">新用户注册</string>
+    <string name="login_hint_account">请输入手机号</string>
+    <string name="login_hint_password">请输入您的密码</string>
+    <string name="login_btn">登录</string>
+    <string name="login_error_1">手机号不能为空</string>
+    <string name="login_error_2">密码不能为空</string>
+    <string name="login_error_4">密码错误请重新输入</string>
+    <string name="login_error_5">手机号输入有误</string>
+    <string name="login_account">账号不存在</string>
+
+    <string name="register_title">注册</string>
+    <string name="register_send_sms_code">获取验证码</string>
+    <string name="register_hint_account">请输入手机号</string>
+    <string name="register_hint_sms_code">请输入验证码</string>
+    <string name="register_hint_password">请输入8–20位数字与字母结合的密码</string>
+    <string name="register_hint_invite">请输入邀请码</string>
+    <string name="register_btn">注册</string>
+    <string name="register_error_1">手机号不能为空</string>
+    <string name="register_error_2">验证码不能为空</string>
+    <string name="register_error_3">密码不能为空</string>
+    <string name="register_error_5">验证码输入有误</string>
+    <string name="register_error_6">密码输入有误</string>
+    <string name="register_error_7">邀请码不能为空</string>
+    <string name="register_error_8">请先阅读用户协议</string>
+    <string name="register_user_1">我已经阅读并同意</string>
+    <string name="register_user_2"> 用户协议</string>
+    <string name="login_success">登录成功</string>
+    <string name="regist_success">注册成功</string>
+
+    <string name="forget_login_psw_title">忘记密码</string>
+    <string name="forget_login_psw_send_sms_code">获取验证码</string>
+    <string name="forget_login_psw_hint_account">请输入您的手机号</string>
+    <string name="forget_login_psw_hint_sms_code">请输入验证码</string>
+    <string name="forget_login_psw_hint_password">请输入密码</string>
+    <string name="forget_login_psw_hint_password_again">请再次输入密码</string>
+    <string name="forget_login_psw_btn">提交</string>
+    <string name="forget_login_psw_error_1">手机号不能为空</string>
+    <string name="forget_login_psw_error_2">验证码不能为空</string>
+    <string name="forget_login_psw_error_3">密码不能为空</string>
+    <string name="forget_login_psw_error_5">验证码输入有误</string>
+    <string name="forget_login_psw_error_6">密码输入有误</string>
+    <string name="forget_login_psw_error_7">您输入的密码两次不一致</string>
+
+    <string name="password_setting_title">密码设置</string>
+    <string name="password_setting_modify_login">修改登录密码</string>
+    <string name="password_setting_modify_pay">修改资金密码</string>
+    <string name="password_setting_modify_pay_psw">修改资金密码</string>
+    <string name="password_setting_setting_pay_psw">设置资金密码</string>
+
+    <string name="modify_login_psw_title">修改登录密码</string>
+    <string name="modify_login_psw_send_sms_code">获取验证码</string>
+    <string name="modify_login_psw_hint_sms_code">请输入验证码</string>
+    <string name="modify_login_psw_hint_old_password">请输入旧密码</string>
+    <string name="modify_login_psw_hint_new_password">请输入新密码</string>
+    <string name="modify_login_psw_hint_new_password_again">请再次输入密码</string>
+    <string name="modify_login_psw_btn">确定</string>
+    <string name="modify_login_psw_error_1">验证码不能为空</string>
+    <string name="modify_login_psw_error_2">旧密码不能为空</string>
+    <string name="modify_login_psw_error_3">新密码不能为空</string>
+    <string name="modify_login_psw_error_4">您输入的密码两次不一致</string>
+    <string name="modify_login_psw_error_5">验证码输入有误</string>
+    <string name="modify_login_psw_error_6">旧密码输入有误</string>
+    <string name="modify_login_psw_error_7">新密码输入有误</string>
+
+    <string name="modify_pay_psw_title">修改资金密码</string>
+    <string name="modify_pay_psw_send_sms_code">获取验证码</string>
+    <string name="modify_pay_psw_hint_sms_code">请输入验证码</string>
+    <string name="modify_pay_psw_hint_password">请输入新密码</string>
+    <string name="modify_pay_psw_hint_password_again">请再次输入密码</string>
+    <string name="modify_pay_psw_btn">确定</string>
+    <string name="modify_pay_psw_error_1">验证码不能为空</string>
+    <string name="modify_pay_psw_error_2">密码不能为空</string>
+    <string name="modify_pay_psw_error_3">您输入的密码两次不一致</string>
+    <string name="modify_pay_psw_error_4">验证码输入有误</string>
+    <string name="modify_pay_psw_error_5">密码输入有误</string>
+
+    <string name="setting_pay_psw_title">设置资金密码</string>
+    <string name="setting_pay_psw_hint_password">请输入密码</string>
+    <string name="setting_pay_psw_hint_password_again">请再次输入密码</string>
+    <string name="setting_pay_psw_btn">确定</string>
+    <string name="setting_pay_psw_error_1">密码不能为空</string>
+    <string name="setting_pay_psw_error_2">您输入的密码两次不一致</string>
+    <string name="setting_pay_psw_error_3">密码输入有误</string>
+
+    <string name="window_exchange_title">兑换</string>
+    <string name="window_exchange_btn">确定</string>
+    <string name="window_exchange_edit_hint">可用：</string>
+    <string name="window_exchange_error_1">数量不能为空</string>
+    <string name="window_exchange_error_2">数量输入有误</string>
+    <string name="window_exchange_error_3">余额不足</string>
+    <string name="window_exchange_error_4">请先设置资金密码</string>
+
+    <string name="window_password_edit_hint">请输入资金密码</string>
+    <string name="window_password_btn">确定</string>
+    <string name="window_password_edit_title">输入资金密码</string>
+    <string name="window_password_error_1">密码不能为空</string>
+    <string name="window_password_edit_send">请输入短信验证码</string>
+
+    <string name="item_wallet_withdrawal">提现</string>
+    <string name="item_wallet_recharge">充值</string>
+    <string name="item_wallet_exchange">兑换</string>
+    <string name="item_wallet_available">可用：</string>
+    <string name="item_wallet_release">待释放：</string>
+
+    <string name="account_setting_title">编辑资料</string>
+    <string name="account_setting_icon">头像</string>
+    <string name="account_setting_name">昵称</string>
+    <string name="account_setting_sex">性别</string>
+    <string name="account_setting_man">男</string>
+    <string name="account_setting_woman">女</string>
+
+    <string name="account_set_name_title">昵称</string>
+    <string name="account_set_name_edit">请输入您的昵称</string>
+    <string name="account_set_name_btn">确定</string>
+
+    <string name="account_set_sex_title">性别</string>
+    <string name="account_set_sex_man">男</string>
+    <string name="account_set_sex_woman">女</string>
+
+    <string name="address_manager_title">收货地址管理</string>
+    <string name="address_manager_add">添加地址</string>
+    <string name="address_manager_name">请输入收货人姓名</string>
+    <string name="address_manager_phone">请输入收货人手机号</string>
+    <string name="address_manager_city">请输入收货人地址</string>
+    <string name="address_manager_details">请输入地址详情</string>
+    <string name="address_manager_btn">保存地址</string>
+    <string name="address_manager_error_1">收货人姓名不能为空</string>
+    <string name="address_manager_error_2">收货人手机号不能为空</string>
+    <string name="address_manager_error_3">收货人城市不能为空</string>
+    <string name="address_manager_error_4">收货人详情地址不能为空</string>
+
+    <string name="my_invite_title">我的邀请</string>
+
+    <string name="my_order_title">我的订单</string>
+
+    <string name="record_all_title">历史记录</string>
+    <string name="record_all_recharge">充值记录</string>
+    <string name="record_all_transfer">转账记录</string>
+    <string name="record_all_release">释放记录</string>
+    <string name="record_all_exchange">兑换记录</string>
+    <string name="record_all_gift">分红记录</string>
+    <string name="record_exchange_title">兑换记录</string>
+    <string name="record_gift_title">分红记录</string>
+    <string name="record_recharge_title">充值记录</string>
+    <string name="record_release_title">释放记录</string>
+    <string name="record_transfer_title">转账记录</string>
+
+    <string name="rule_title">奖励规则</string>
+    <string name="rule_1">动态奖励：</string>
+    <string name="rule_2">&#160;
+        总入金的数量*(3)的GID。\n
+        日释放根据自己的直推业绩进行统计：  \n
+        直推邀请总入金：5k 日释放0.1%  \n
+        直推邀请总入金： 日释放0.15%  \n
+        直推邀请总入金： 日释放0.3%  \n
+        直推邀请总入金： 日释放0.4%  \n
+        直推邀请总入金： 日释放0.5%  \n
+        直推邀请总入金： 日释放0.6%  \n
+        直推邀请总入金： 日释放0.7%  \n
+        直推邀请总入金： 日释放0.8%  \n
+        直推邀请总入金： 日释放0.9%  \n
+        直推邀请总入金： 日释放1.0%
+    </string>
+    <string name="rule_3">静态奖励：</string>
+    <string name="rule_4">&#160;
+        直推，拿被推荐用户的(10)%  \n
+        V0(无效用户)：(VIP0暗色的)—————————动态：无\n
+        V0(有效用户)：购买任何产品，点亮V0—————动态：无\n
+        V1(销售专员)：至少直推(2)个人，总业绩达到(20)万—：(2)颗豆\n
+        V2(社区代理)：至少(2)条线，每条线至少一个V1—：(2)颗豆\n
+        V3(区级代理)：至少(3)条线，每条线至少一个V2—：(2)颗豆\n
+        V4(市级代理)：至少(4)条线，每条线至少一个V3——(2)颗豆\n
+        V5(省级代理)：至少(5)条线，每条线至少一个V4——(2)颗豆\n
+    </string>
+
+    <string name="setting_title">设置</string>
+    <string name="setting_clean_cache">清空缓存</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_version_code">检测版本</string>
+    <string name="setting_password">修改密码</string>
+    <string name="setting_language">语言切换</string>
+    <string name="setting_out_login">退出登录</string>
+
+    <string name="my_asset_title">我的资产</string>
+    <string name="my_wallet_record">历史记录</string>
+    <string name="my_gene_title">我的基因豆</string>
+
+    <string name="wallet_title">钱包</string>
+    <string name="wallet_my_asset">我的资产</string>
+    <string name="wallet_my_gene">我的基因豆</string>
+
+    <string name="confirm_order_title">确认订单</string>
+    <string name="confirm_order_error_1">商品不存在</string>
+    <string name="confirm_order_error_2">收货地址不能为空</string>
+    <string name="confirm_order_error_3">请先阅读以下协议</string>
+    <string name="confirm_order_error_4">密码不能为空</string>
+    <string name="confirm_order_error_5">密码输入有误</string>
+    <string name="confirm_order_error_6">下单失败</string>
+    <string name="confirm_order_FLAG_ADDRESS_DEFAULT">默认</string>
+    <string name="confirm_order_address_update">修改</string>
+    <string name="confirm_order_address_not_adds">添加收货地址</string>
+    <string name="confirm_order_total_price">商品总额：</string>
+    <string name="confirm_order_post_price">运费：</string>
+    <string name="confirm_order_actual_price">实付金额：</string>
+    <string name="confirm_order_check">我以阅读并同意</string>
+    <string name="confirm_order_agree_1">《服务协议》</string>
+    <string name="confirm_order_agree_2">《隐私声明》</string>
+    <string name="confirm_order_agree_3">《数据保护协议》</string>
+    <string name="confirm_order_btn">提交</string>
+    <string name="confirm_order_price">实付金额：</string>
+
+    <string name="shop_meal_content_text">服务流程：</string>
+    <string name="shop_meal_util_text">样本采集器：</string>
+    <string name="shop_meal_recycler">检测内容：</string>
+    <string name="shop_meal_time_text">检测周期：</string>
+    <string name="shop_meal_btn">提交</string>
+    <string name="shop_meal_price">实付金额：</string>
+
+    <string name="shop_search_edit">请输入关键词</string>
+    <string name="shop_radio_personal">个人套餐</string>
+    <string name="shop_radio_family">家庭套餐</string>
+
+    <string name="add_person_title">添加成员</string>
+    <string name="add_person_person">成人</string>
+    <string name="add_person_child">儿童</string>
+
+    <string name="health_card_title">健康卡</string>
+    <string name="health_card_add">+新增成员</string>
+
+    <string name="add_person_child_name">姓名</string>
+    <string name="add_person_child_name_hint">请输入您的姓名</string>
+    <string name="add_person_child_sex">性别</string>
+    <string name="add_person_child_sex_hint">请选择您的性别</string>
+    <string name="add_person_child_age">年龄</string>
+    <string name="add_person_child_age_hint">请输入您的年龄</string>
+    <string name="add_person_child_person_name">监护人姓名</string>
+    <string name="add_person_child_person_name_hint">请输入监护人姓名</string>
+    <string name="add_person_child_person_sex">监护人性别</string>
+    <string name="add_person_child_person_sex_hint">请选择监护人性别</string>
+    <string name="add_person_child_person_age">监护人年龄</string>
+    <string name="add_person_child_person_age_hint">请输入监护人年龄</string>
+    <string name="add_person_child_person_IDCard">监护人身份证</string>
+    <string name="add_person_child_person_IDCard_hint">请输入监护人身份证</string>
+    <string name="add_person_child_person_phone">监护人手机号</string>
+    <string name="add_person_child_person_phone_hint">请输入监护人手机号</string>
+    <string name="add_person_child_person_ratio">与本人关系</string>
+    <string name="add_person_child_person_ratio_hint">请选择与本人关系</string>
+    <string name="add_person_child_btn">完成</string>
+    <string name="add_person_child_btn_1">修改</string>
+    <string name="add_person_child_error_1">姓名不能为空</string>
+    <string name="add_person_child_error_2">年龄输入有误</string>
+    <string name="add_person_child_error_3">请选择性别</string>
+    <string name="add_person_child_error_4">监护人姓名不能为空</string>
+    <string name="add_person_child_error_5">监护人年龄输入有误</string>
+    <string name="add_person_child_error_6">请监护人选择性别</string>
+    <string name="add_person_child_error_7">监护人身份证号输入有误</string>
+    <string name="add_person_child_error_8">监护人手机号不能为空</string>
+    <string name="add_person_child_error_9">请选择与本人关系</string>
+    <string name="add_person_child_error_10">监护人手机号输入有误</string>
+    <string name="add_person_child_error_11">监护人手机号输入有误</string>
+
+    <string name="add_person_person_name">姓名</string>
+    <string name="add_person_person_name_hint">请输入您的姓名</string>
+    <string name="add_person_person_sex">性别</string>
+    <string name="add_person_person_sex_hint">请选择您的性别</string>
+    <string name="add_person_person_age">年龄</string>
+    <string name="add_person_person_age_hint">请输入您的年龄</string>
+    <string name="add_person_person_IDCard">身份证</string>
+    <string name="add_person_person_IDCard_hint">请输入您的身份证</string>
+    <string name="add_person_person_phone">联系号码</string>
+    <string name="add_person_person_phone_hint">请输入您的联系号码</string>
+    <string name="add_person_person_btn">完成</string>
+    <string name="add_person_person_btn_1">修改</string>
+    <string name="add_person_person_error_1">姓名不能为空</string>
+    <string name="add_person_person_error_2">年龄输入有误</string>
+    <string name="add_person_person_error_3">请选择性别</string>
+    <string name="add_person_person_error_4">身份证号不能为空</string>
+    <string name="add_person_person_error_5">身份证号输入有误</string>
+    <string name="add_person_person_error_6">手机号不能为空</string>
+    <string name="add_person_person_error_7">手机号输入有误</string>
+
+    <string name="community_title">购买</string>
+    <string name="community_number">数量：</string>
+    <string name="community_price">单价</string>
+    <string name="community_quota">限额：</string>
+    <string name="community_poster">广告留言：</string>
+    <string name="community_deal_number">商户成单量:</string>
+    <string name="community_deal_number_1">需要购买多少?</string>
+    <string name="community_toast">交易提醒</string>
+    <string name="community_toast_1">1.兑入兑出前，请详细了解商家信息。</string>
+    <string name="community_toast_2">2.如遇问题，请致电商家。</string>
+    <string name="community_toast_3">3.如遇纠纷，请向平台申诉。</string>
+
+    <string name="window_confirm_order_community_dismiss">取消</string>
+    <string name="window_confirm_order_community_title">下单确认</string>
+    <string name="window_confirm_order_community_price">购买价格</string>
+    <string name="window_confirm_order_community_number">购买数量</string>
+    <string name="window_confirm_order_community_total">购买总额</string>
+    <string name="window_confirm_order_community_toast_1">提醒:请确认价格再下单，下单后此交易的资金将托</string>
+    <string name="window_confirm_order_community_toast_2">管锁定，请放心购买。</string>
+    <string name="window_confirm_order_community_btn">确定</string>
+
+    <string name="main_community_title">社区</string>
+    <string name="main_community_radio_buy">兑入</string>
+    <string name="main_community_radio_sell">兑出</string>
+
+    <string-array name="timeLimit">
+        <item>15 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>60 分钟</item>
+    </string-array>
+    <string-array name="bank_name">
+
+        <item>中国工商银行</item>
+        <item>中国农业银行</item>
+        <item>中国建设银行</item>
+        <item>中国邮政储蓄银行</item>
+        <item>招商银行</item>
+        <item>中国银行</item>
+        <item>交通银行</item>
+        <item>中信银行</item>
+        <item>华夏银行</item>
+        <item>中国民生银行</item>
+        <item>广发银行</item>
+        <item>平安银行</item>
+        <item>兴业银行</item>
+        <item>上海浦东发展银行</item>
+        <item>浙商银行</item>
+        <item>渤海银行</item>
+        <item>恒丰银行</item>
+        <item>花旗银行</item>
+        <item>渣打银行</item>
+        <item>汇丰银行</item>
+        <item>中国光大银行</item>
+        <item>上海银行</item>
+        <item>江苏银行</item>
+        <item>重庆银行</item>
+        <item>天津银行</item>
+        <item>厦门银行</item>
+        <item>城市商业银行</item>
+        <item>农村商业银行</item>
+        <item>徽商银行</item>
+    </string-array>
+
+
+    <string-array name="order_community_tab" tools:ignore="InconsistentArrays">
+        <item>未付款</item>
+        <item>已付款</item>
+        <item>已完成</item>
+        <item>申诉中</item>
+    </string-array>
+
+    <string name="qingshaohou">请稍后...</string>
+    <string name="shop_item_buy">立即申请</string>
+    <string name="my_invite_code">我的邀请码</string>
+    <string name="copy_invite_code">复制邀请码</string>
+    <string name="eth">收款码</string>
+    <string name="fiat_order">兑入兑出订单</string>
+    <string name="gene_order">基因套餐订单</string>
+    <string name="order_release">订单放行</string>
+    <string name="Payment_done">我已付款</string>
+    <string name="Cancel_order">取消订单</string>
+    <string name="paymentTip4">对此订单有疑问？</string>
+    <string name="paymentTip5">点我申诉</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="no_network">当前无网络</string>
+    <string name="parse_error">解析异常</string>
+    <string name="login_invalid">登录失效，请重新登录！</string>
+    <string name="no_data">暂无数据</string>
+    <string name="Warm_prompt">温馨提示</string>
+    <string name="paymentTip7">您将要取消该订单，是否继续？</string>
+    <string name="paymentTip8">是否确认已经付款？</string>
+    <string name="paymentTip9">您将要申诉该订单，是否继续？</string>
+    <string name="cancle">取消</string>
+    <string name="confirm">确定</string>
+    <string name="enter_password" translatable="false">请输入资金密码</string>
+    <string name="open_down">放行</string>
+
+
+    <!--chat-->
+    <string name="chat_delete">删除</string>
+    <string name="chat_my_message">我的消息</string>
+    <!--Community-->
+    <string name="community_need_buy">需要兑入多少？</string>
+    <string name="community_need_sell">需要兑出多少？</string>
+    <string name="community_number_null">购买数量不能为空</string>
+    <string name="order_success">下单成功</string>
+    <string name="ali">支付宝</string>
+    <string name="wechat">微信</string>
+    <string name="bank">银行卡</string>
+    <string name="unionpay">银联</string>
+    <string name="business_amount">商户成单量：</string>
+    <string name="number_remaining">剩余数量：</string>
+    <string name="limit_amount">限额：</string>
+    <string name="area_selection">地区选择</string>
+    <string name="certification">认证</string>
+    <string name="real_name_empty">真实姓名不能为空</string>
+    <string name="real_name_length">真实姓名过长</string>
+    <string name="id_card_error">身份证号输入有误</string>
+    <string name="complete_info">请完善信息</string>
+    <string name="certification_success">实名认证申请成功，请等待审核</string>
+    <string name="against_amount">兑入数量</string>
+    <string name="against_price">兑入价格</string>
+    <string name="enter_against_price">请输入兑入价格</string>
+    <string name="against_in">兑入</string>
+    <string name="against_out_amount">兑出数量</string>
+    <string name="against_out_price">兑出价格</string>
+    <string name="enter_against_out_price">请输入兑出价格</string>
+    <string name="against_out">兑出</string>
+    <string name="release_title">发布</string>
+    <string name="modify_title">修改</string>
+    <string name="modify_ads">修改广告</string>
+    <string name="minutes">分钟</string>
+    <string name="max_amount">最大量不得高于</string>
+    <string name="min_amount">最小量不得低于100CNY</string>
+    <string name="overflow_price">根据市场价的溢出比例</string>
+    <string name="adv_complete">广告信息填写不完整</string>
+    <string name="modify_success">修改成功</string>
+    <string name="add_success">添加成功</string>
+    <string name="release_success">发布成功</string>
+    <string name="become_busin">成为商家</string>
+    <string name="reason">原因：</string>
+    <string name="busin_certification">商家认证</string>
+    <string name="uploaded_text">已上传</string>
+    <string name="wechat_empty">微信号不能为空</string>
+    <string name="qq_empty">QQ号不能为空</string>
+    <string name="margin_empty">保证金为空</string>
+    <string name="commit_success">提交成功,等待审核</string>
+    <string name="chose_coin">选择币种</string>
+    <string name="chose_pay">选择付款方式</string>
+    <string name="pay_date">付款期限</string>
+    <string name="please_go_real_name">请去实名认证</string>
+    <string name="please_setting_pay">请至少设置一项支付方式</string>
+    <!--main-->
+    <string name="unknow_mess">未知消息来源：</string>
+    <string name="mess_error">消息解析错误：</string>
+    <!--wallet-->
+    <string name="exchange_success">兑换成功</string>
+    <string name="transfer_success">转账成功</string>
+    <!--shop-->
+    <string name="submit_success">提交成功</string>
+    <string name="signed_agree">签订协议</string>
+    <string name="signed_error">签名失败</string>
+    <string name="loading">加载</string>
+    <string name="save_success">保存成功</string>
+    <string name="search_content">搜索内容不能为空</string>
+    <string name="buy_warm">请先同意购买须知</string>
+    <!--my-->
+    <string name="looking_forwad">敬请期待</string>
+    <string name="please_reanl_name">请先实名认证</string>
+    <string name="please_busin_name">请先认证商家</string>
+    <string name="shelves_up">上架</string>
+    <string name="shelves_down">下架</string>
+    <string name="shelves_up_loding">上架中</string>
+    <string name="shelves_down_loding">已下架</string>
+    <string name="order_buy">购买</string>
+    <string name="order_sell">出售</string>
+    <string name="order_nmber">数量</string>
+    <string name="order_limit_amount">限额</string>
+    <string name="trans_review">转账审核中...</string>
+    <string name="trans_loding">转账中...</string>
+    <string name="trans_fail">转账失败</string>
+    <string name="trans_success">转账成功</string>
+    <string name="my_adv">我的广告</string>
+    <string name="shelves_success">上架成功</string>
+    <string name="shelves_error">下架成功</string>
+    <string name="content_commit_too_long">提交内容过长</string>
+    <string name="chose_address_cargo">选择收货地址</string>
+    <string name="chose_address">地址选择</string>
+    <string name="nick_name_too_long">昵称过长</string>
+    <string name="nick_name_too_short">昵称过短</string>
+    <string name="nick_name_empty">昵称不能为空</string>
+    <string name="delete_success">删除成功</string>
+    <string name="setting_success">设置成功</string>
+    <string name="receiving_setting">收款设置</string>
+    <string name="modify">修改</string>
+    <string name="unbounded">未绑定</string>
+    <string name="bounded">绑定</string>
+    <string name="ali_count">支付宝账号</string>
+    <string name="zxing_empty">收款二维码不能为空</string>
+    <string name="ali_empty">支付宝账号不能为空</string>
+    <string name="wecht_empty">微信账号不能为空</string>
+    <string name="pass_empty">资金密码不能空</string>
+    <string name="bounded_success">绑定成功</string>
+    <string name="bank_empty">银行卡账号</string>
+    <string name="bank_amount">开户银行</string>
+    <string name="wechat_count">微信账号</string>
+    <string name="please_enter_pwd">请输入开户姓名</string>
+    <string name="please_chose_bank">请选择开户银行</string>
+    <string name="bank_person_empty">开户支行不能为空</string>
+    <string name="bank_card_empty">银行卡号不能空</string>
+    <string name="two_enter_card">两次卡号输入不一致</string>
+    <string name="order_complaint">订单申诉</string>
+    <string name="order_complaint_empty">申诉内容不能为空</string>
+    <string name="commit_content_too_long">提交内容过长</string>
+    <string name="order_detail">订单详情</string>
+    <string name="order_amount">数量：x</string>
+    <string name="order_number">订单编号：</string>
+    <string name="order_time">下单时间：</string>
+    <string name="payment_way">支付方式：</string>
+    <string name="put_the_coin">放币成功</string>
+    <string name="cancel_order">取消订单成功</string>
+    <string name="confirm_success">确认成功</string>
+    <string name="will_be_in">您将在</string>
+    <string name="buyer_payment">内收到买家付款</string>
+    <string name="trans_warm">请务必使用您收款设置中的银行卡向以下账户转账</string>
+    <string name="buy_info">买家付款信息如下</string>
+    <string name="no_payment">待付款</string>
+    <string name="payment_been">已付款</string>
+    <string name="order_completed">已完成</string>
+    <string name="appeal_been">申诉中</string>
+    <string name="order_payment_success">订单已付款</string>
+    <string name="order_pay_success">订单已完成</string>
+    <string name="order_appeal">订单申诉中</string>
+    <string name="sell_nick_name">卖家昵称</string>
+    <string name="sell_real_name">卖家实名</string>
+    <string name="buy_nick_name">卖家昵称</string>
+    <string name="buy_real_name">卖家实名</string>
+    <!--xml-->
+    <string name="talk_about">说点什么吧</string>
+    <string name="send_mess">发送</string>
+    <string name="take_photo">拍照</string>
+    <string name="chose_camer">从相册选取</string>
+    <string name="against_into">我要兑入</string>
+    <string name="against_outside">我要兑出</string>
+    <string name="zxing">二维码</string>
+    <string name="submit_sucess">提交成功！</string>
+    <string name="thank_warm">感谢您对华寅基因的信任与支持，我们将尽快为您解决！ </string>
+    <string name="all">全部</string>
+    <string name="all_change">总可兑：0</string>
+    <string name="buy_tip">购买须知</string>
+    <string name="read_agree">您需要阅读并签订《基因检测委托服务协议》</string>
+    <string name="available">可用</string>
+    <string name="reeze">冻结</string>
+    <string name="top_up_success">充值成功</string>
+    <string name="invite_content">直接邀请好友可获得好友入金量10%的收益</string>
+    <string name="pay_success">支付成功</string>
+
+
+</resources>

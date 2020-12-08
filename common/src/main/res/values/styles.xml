@@ -1,0 +1,9 @@
+<resources>
+
+    <!--PopupWindow进出场动画-->
+    <style name="showPopupAnimation" parent="android:Animation">
+        <item name="android:windowExitAnimation">@anim/anim_popup_out</item>
+        <item name="android:windowEnterAnimation">@anim/anim_popup_in</item>
+    </style>
+
+</resources>

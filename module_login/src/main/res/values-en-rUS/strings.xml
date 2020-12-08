@@ -1,0 +1,90 @@
+<resources>
+
+    <string name="app_name">login</string>
+
+    <string name="login_title">Login</string>
+    <string name="login_forget">Forget password</string>
+    <string name="login_register">New user registration</string>
+    <string name="login_hint_account">Please enter your mobile phone number</string>
+    <string name="login_hint_password">Please enter password</string>
+    <string name="login_btn">Login</string>
+    <string name="login_error_1">Mobile phone number cannot be empty</string>
+    <string name="login_error_2">Password cannot be empty</string>
+    <string name="login_error_4">Password error please reenter</string>
+
+    <string name="register_title">Register</string>
+    <string name="register_send_sms_code">Send</string>
+    <string name="register_hint_account">Please enter your mobile phone number</string>
+    <string name="register_hint_sms_code">Please enter verification code</string>
+    <string name="register_hint_password">Please enter password</string>
+    <string name="register_hint_invite">Please enter invitation code</string>
+    <string name="register_btn">Register</string>
+    <string name="register_error_1">Mobile phone number cannot be empty</string>
+    <string name="register_error_2">Verification code cannot be empty</string>
+    <string name="register_error_3">Password cannot be empty</string>
+    <string name="register_error_5">Error in input of validation code</string>
+    <string name="register_error_6">Password error please reenter</string>
+    <string name="register_error_7">Invitation code cannot be empty</string>
+    <string name="register_error_8">Read the User Agreement first</string>
+    <string name="register_user_1">I have read and agreed.</string>
+    <string name="register_user_2"> User agreement</string>
+
+    <string name="password_setting_title">Password setting</string>
+    <string name="password_setting_modify_login">Change login password</string>
+    <string name="password_setting_modify_pay">Change asset password</string>
+    <string name="password_setting_modify_pay_psw">Change asset password</string>
+    <string name="password_setting_setting_pay_psw">Setting asset password</string>
+
+    <string name="forget_login_psw_title">Forget password</string>
+    <string name="forget_login_psw_send_sms_code">Send</string>
+    <string name="forget_login_psw_hint_account">Please enter your mobile phone number</string>
+    <string name="forget_login_psw_hint_sms_code">Please enter verification code</string>
+    <string name="forget_login_psw_hint_password">Please enter password</string>
+    <string name="forget_login_psw_hint_password_again">Please enter password again</string>
+    <string name="forget_login_psw_btn">Submit</string>
+    <string name="forget_login_psw_error_1">Mobile phone number cannot be empty</string>
+    <string name="forget_login_psw_error_2">Verification code cannot be empty</string>
+    <string name="forget_login_psw_error_3">Password cannot be empty</string>
+    <string name="forget_login_psw_error_5">Error in input of validation code</string>
+    <string name="forget_login_psw_error_6">Password error please reenter</string>
+    <string name="forget_login_psw_error_7">Password error, please reenter</string>
+
+    <string name="modify_login_psw_title">Modify login password</string>
+    <string name="modify_login_psw_send_sms_code">Send</string>
+    <string name="modify_login_psw_hint_sms_code">Please enter verification code</string>
+    <string name="modify_login_psw_hint_old_password">Please enter the old password</string>
+    <string name="modify_login_psw_hint_new_password">Please enter a new password</string>
+    <string name="modify_login_psw_hint_new_password_again">Please enter your password again</string>
+    <string name="modify_login_psw_btn">Confirm</string>
+    <string name="modify_login_psw_error_1">Verification code cannot be empty</string>
+    <string name="modify_login_psw_error_2">Old passwords cannot be empty</string>
+    <string name="modify_login_psw_error_3">New password cannot be empty</string>
+    <string name="modify_login_psw_error_4">Password error, please reenter</string>
+    <string name="modify_login_psw_error_5">Verification code error please reenter</string>
+    <string name="modify_login_psw_error_6">Old password error please reenter</string>
+    <string name="modify_login_psw_error_7">New password error please reenter</string>
+
+    <string name="modify_pay_psw_title">Modify Payment Password</string>
+    <string name="modify_pay_psw_send_sms_code">Send</string>
+    <string name="modify_pay_psw_hint_sms_code">Please enter verification code</string>
+    <string name="modify_pay_psw_hint_password">Please enter password</string>
+    <string name="modify_pay_psw_hint_password_again">Please enter password again</string>
+    <string name="modify_pay_psw_btn">Confirm</string>
+    <string name="modify_pay_psw_error_1">Verification code cannot be empty</string>
+    <string name="modify_pay_psw_error_2">Passwords cannot be empty</string>
+    <string name="modify_pay_psw_error_3">Password error, please reenter</string>
+    <string name="modify_pay_psw_error_4">Verification code error please reenter</string>
+    <string name="modify_pay_psw_error_5">Password error, please reenter</string>
+
+    <string name="setting_pay_psw_title">Setting Payment Password</string>
+    <string name="setting_pay_psw_hint_password">Please enter password</string>
+    <string name="setting_pay_psw_hint_password_again">Please enter password again</string>
+    <string name="setting_pay_psw_btn">Confirm</string>
+    <string name="setting_pay_psw_error_1">Passwords cannot be empty</string>
+    <string name="setting_pay_psw_error_2">Password error, please reenter</string>
+    <string name="setting_pay_psw_error_3">Password error, please reenter</string>
+
+    <string name="select_county_save">保存</string>
+    <string name="select_county_title">国家和地区</string>
+
+</resources>
